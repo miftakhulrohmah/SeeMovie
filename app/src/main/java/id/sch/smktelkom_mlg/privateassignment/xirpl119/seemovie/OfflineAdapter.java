@@ -57,10 +57,9 @@ public class OfflineAdapter extends RecyclerView.Adapter<OfflineAdapter.ViewHold
 
                         public ViewHolder(View itemView) {
                         super(itemView);
+                            textViewHead = (TextView) itemView.findViewById(R.id.textViewHead);
 
-                                textViewHead = (TextView) itemView.findViewById(R.id.textViewHead);
-
-                                imageViewOtof = (ImageView) itemView.findViewById(R.id.imageViewOtof);
+                             imageViewOtof = (ImageView) itemView.findViewById(R.id.imageViewOtof);
                         linearLayout = (LinearLayout) itemView.findViewById(R.id.linearLayout);
 
                                             }
