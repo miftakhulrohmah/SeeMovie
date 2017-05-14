@@ -5,4 +5,21 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name1">Application Introduction</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Be up to date!</string>
+    <string name="slide_1_desc">You can easily see coming soon movies' updates</string>
+
+    <string name="slide_2_title">Movie Schedules</string>
+    <string name="slide_2_desc">Make your schedule to watch your favorite movie!</string>
+
+    <string name="slide_3_title">Top Rated</string>
+    <string name="slide_3_desc">See how much people love the movie!</string>
+
+    <string name="slide_4_title">Recommended</string>
+    <string name="slide_4_desc">List of top movie recommended for you!</string>
 </resources>

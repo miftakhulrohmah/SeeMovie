@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+       /* if (id == R.id.action_settings) {
             return true;
-        }
+        }*/
 
         return super.onOptionsItemSelected(item);
     }
@@ -111,6 +111,8 @@ public class MainActivity extends AppCompatActivity {
                 return new MovieFragment();
             if(position==2)
                 return new OfflineFragment();
+            if(position==3)
+                return new FinalFragment();
             else
             return PlaceholderFragment.newInstance(position + 1);
         }
@@ -118,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
 
         @Override
@@ -129,7 +131,9 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
                     return "TOP RATED";
                 case 2:
-                    return "MOST WATCHED";
+                    return "RECOMMENDED";
+                case 3:
+                    return "ABOUT";
             }
             return null;
         }
